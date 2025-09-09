@@ -30,13 +30,21 @@ client.on('ready', () => {
     if (index === statuses.length) index = 0;
   }, 10000); // 15000 = 15 ثانية
 });
-const n8a6id = "" // رتبة المسؤولين عن النقاط
-const staffid = "" // رتبة الادارة
-const prefix = "+" // 
-const LOG_CHANNEL_ID = ''; // لوق عادي
-const categoryID = ''; // كاتاقوري التكت
-const logChannelID = ''; //   لوق النقاط هنا 
-const TICKET_LOG_CHANNEL_ID = ""; // لوق التكت هنا
+
+// استدعاء ملف config.json
+const config = require('./config.json');
+
+// يستدعي جميع الكونست
+const n8a6id = config.n8a6id;
+const staffid = config.staffid;
+const prefix = config.prefix;
+const LOG_CHANNEL_ID = config.LOG_CHANNEL_ID;
+const categoryID = config.categoryID;
+const logChannelID = config.logChannelID;
+const TICKET_LOG_CHANNEL_ID = config.TICKET_LOG_CHANNEL_ID;
+const token = config.token; 
+
+
 
 
 client.on("message", async (message) => {
