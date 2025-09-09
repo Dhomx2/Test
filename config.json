@@ -1,10 +1,10 @@
 {
-  "n8a6id": "", // مسؤول النقاط
-  "staffid": "", // رتبة الادارة
-  "prefix": "+", // برفكس (بعض الاوامر بالاندكس مكتوبه بالزائد لازم تعدلها لو تبي تغير البرفكس )
-  "LOG_CHANNEL_ID": "", // اللوق العادي
-  "categoryID": "", // كاتاقوري التكت
-  "pointslog": "", // لوق النقاط
-  "TICKET_LOG_CHANNEL_ID": "", //لوق التكت 
-  "token": "" // توكن
+  "n8a6id": "", 
+  "staffid": "", 
+  "prefix": "+", 
+  "LOG_CHANNEL_ID": "",
+  "categoryID": "", 
+  "pointslog": "",
+  "TICKET_LOG_CHANNEL_ID": "",
+  "token": "" 
 }
