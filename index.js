@@ -1153,4 +1153,4 @@ client.on('message', async message => {
 
    
 
-client.login("") // توكن البوت هنا 
+client.login(token)
